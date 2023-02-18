@@ -15,5 +15,6 @@ class PostsController < ApplicationController
     # redirect_to action: :index  # 追記する
 
     render json:{ post: post }
+    
   end
 end
